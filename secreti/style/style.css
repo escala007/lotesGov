@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+    align-items: center;
+    width: 100%;
+    padding: 13px 0;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+header img{
+    width: 100px;
+}
+
+header .icons-field{
+    display: flex;
+    gap: 30px;
+    font-size: 12px;
+    color: #1351b4;
+}
+
+
+.container{
+    box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    padding: 10px 10px 20px 10px;
+    margin-top: 20px;
+}
+
+.container .first-text{
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.alt-label{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.alt-label .item1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.alt-label .item1 i{
+    color: #1351b4;
+    font-size: 15px;
+}
+
+.alt-label .item1 span{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.legenda{
+    font-weight: 200;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.container-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container-input label{
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.container-input input{
+    border: 1px solid rgb(131, 127, 127);
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container-input input::placeholder{
+    font-style: italic;
+    font-size: 12px;
+}
+
+.btn-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.btn-field button{
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 12px 140PX;
+    background-color: #1351b4;
+    color: white;
+    font-weight: 600;
+}
+
+.sobre-hr{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+hr{
+    margin: 5px 0;
+}
+
+.options-field{
+    margin-top: 20px;
+}
+
+.options-field i{
+    color: #1351b4;
+}
+.options-field p{
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.options-field p i{
+    font-size: 18px;
+    margin-right: 3px;
+}
+.footer-field{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.footer-field span{
+    font-size: 14px;
+    color: #1351b4;
+}
+
+.footer-field i{
+    margin-right: 13px;
+}
+.none{
+    display: none;
+}
